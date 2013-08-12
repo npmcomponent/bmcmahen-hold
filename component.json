@@ -1,0 +1,16 @@
+{
+  "name": "hold",
+  "repo": "bmcmahen/hold",
+  "description": "a hold event for mouse and touch",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/events": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

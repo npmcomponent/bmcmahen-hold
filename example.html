@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style>
+	button {
+		width: 150px;
+		height: 100px;
+	}
+
+	</style>
+	<button id='btn'>hold me, softly </button>
+	<script src='build/build.js'></script>
+	<script>
+	var hold = require('hold');
+	var el = document.getElementById('btn');
+	hold(el, function(e){
+		console.log('Thanks for holding me.');
+	});
+	</script>
+
+</body>
+</html>
