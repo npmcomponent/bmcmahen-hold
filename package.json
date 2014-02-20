@@ -1,0 +1,11 @@
+{
+  "name": "bmcmahen-hold",
+  "description": "a hold event for mouse and touch",
+  "version": "0.0.1",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "component-events": "git://github.com/npmcomponent/component-events.git"
+  },
+  "license": "MIT"
+}

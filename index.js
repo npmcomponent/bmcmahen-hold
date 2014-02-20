@@ -1,4 +1,4 @@
-var events = require('events');
+var events = require('component-events');
 
 module.exports = Hold;
 
